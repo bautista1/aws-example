@@ -1,12 +1,31 @@
 {
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.ts"
   },
   "dependencies": {
     "aws-sdk": "^2.1176.0",
+    "lodash": "^4.17.21",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
+    "@types/aws-lambda": "^8.10.101",
+    "@types/lodash": "^4.14.182",
+    "@types/node": "^18.0.6",
+    "@vercel/ncc": "^0.34.0",
     "dotenv": "^16.0.1"
-  }
+  },
+  "name": "awsnodesample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bautista1/aws-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bautista1/aws-example/issues"
+  },
+  "homepage": "https://github.com/bautista1/aws-example#readme",
+  "description": ""
 }
